@@ -1,4 +1,6 @@
-/* Função para converter as moedas */
+/* Função para converter as moedas 
+    Autor: Diego Freitas
+*/
 
 async function obtemTaxas(moedaOrigem, moedaDestino) {
     const url = `https://economia.awesomeapi.com.br/last/${moedaOrigem}-${moedaDestino}`
